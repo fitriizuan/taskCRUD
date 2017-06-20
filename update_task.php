@@ -43,7 +43,7 @@ if($_POST){
     if($task->update()){
         echo "<div class=\"alert alert-success alert-dismissable\">";
             echo "<button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>";
-            echo "User was updated.";
+            echo "Task was updated.";
         echo "</div>";
     }
  
@@ -51,7 +51,7 @@ if($_POST){
     else{
         echo "<div class=\"alert alert-danger alert-dismissable\">";
             echo "<button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>";
-            echo "Unable to update user.";
+            echo "Unable to update task.";
         echo "</div>";
     }
 }
