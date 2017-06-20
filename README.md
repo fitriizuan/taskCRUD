@@ -1,9 +1,8 @@
 # taskCRUD
 A simple PHP CRUD system for Task activity
-
+-------------------------------------------------------------------------------------------------------------------------------------
 This apps able to list all task, view, edit and delete selected task with SQLite as the db.
 The db for this task is named as 'task'. There are 4 tables in this db which are namely as task, priorityLevel, taskStatus,taskType.
--------------------------------------------------------------------------------------------------------------------------------------
 The tables and its field are as follows:
 
 -Table task-
